@@ -15,7 +15,7 @@ end
 def long_planeteer_calls(calls)
 binding.pry
    calls.select do | size |
-     if size > calls.length
+     if size.length > 4
        true
      else
       false
