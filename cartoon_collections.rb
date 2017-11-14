@@ -13,7 +13,6 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(calls)
-binding.pry
    calls.select do | size |
      if size.length > 4
        true
