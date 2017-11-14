@@ -13,7 +13,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(calls)
-   calls.select do | size |
+   calls.any? do | size |
      if size.length > 4
        true
      else
