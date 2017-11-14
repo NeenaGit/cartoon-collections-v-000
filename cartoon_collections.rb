@@ -13,13 +13,13 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(calls)
+binding.pry
    calls.select do | size |
      if size > calls.length
        true
      else
       false
      end
-     binding.pry
    end
   # Your code here
 end
