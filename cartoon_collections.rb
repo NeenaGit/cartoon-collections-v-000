@@ -25,5 +25,5 @@ end
 def find_the_cheese(cheddar_cheese)
   binding.pry
   # cheese_types = ["cheddar", "gouda", "camembert"]
-  cheddar_cheese.find { | cheese | }
+  cheddar_cheese.find { | cheese | cheese == ["cheddar", "gouda", "camembert"] }
 end
