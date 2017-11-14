@@ -1,3 +1,5 @@
+require 'pry'
+
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index do | name, index |
     puts "#{index + 1}. #{name}"
@@ -17,6 +19,7 @@ def long_planeteer_calls(calls)
      else
       false
      end
+     binding.pry
    end
   # Your code here
 end
